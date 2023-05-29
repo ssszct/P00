@@ -72,5 +72,17 @@ class CalculatorTest {
 		int expected = 4000;
 		assertEquals(actual, expected);
 	}
-//test
+	
+	@Test
+	public final void testexpo() {
+		int a = 2;
+		int b = 3;
+		
+		Calculator cal = new Calculator();
+		int actual = cal.expo(a, b);
+		
+		int expected = 8;
+		assertEquals(actual, expected);
+	}
+
 }
